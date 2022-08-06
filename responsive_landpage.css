@@ -1,0 +1,1084 @@
+/*
+	@name responsive_landpage
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: table; position: relative; width: 768px; width: 768px;  overflow: hidden; display: block;  margin-left: auto; margin-right: auto;  }
+
+#content-container > div{ position: relative; top:inherit; }
+#website {
+	top: 0px;
+	left: 0px;
+	width: 777px;
+	height: 793px;
+}
+#item {
+	top: 0px;
+	left: 0px;
+	width: 777px;
+	height: 793px;
+}
+
+#bg {
+	top: 0px !important;
+	position: absolute !important;
+	left: 0px;
+	width: 768px;
+	height: 793px;
+	background:url(skins/bg.png);
+	background-size:cover;
+}
+
+
+#shadow {
+	opacity:0.39;
+	top: 334px;
+	left: 181px;
+	width: 135.63465881348px;
+	height: 212.23318481445px;
+	-ms-border-radius: 22px;
+	-o-border-radius: 22px;
+	-moz-border-radius: 22px;
+	-webkit-border-radius: 22px;
+	border-radius: 22px;
+	
+	-ms-transform:rotate(8deg);
+	-o-transform:rotate(8deg);
+	-webkit-transform:rotate(8deg);
+	-moz-transform:rotate(8deg);
+	transform:rotate(8deg);
+	background:rgba(0,0,0,255);
+}
+
+
+#shadow_2 {
+	opacity:0.34;
+	top: 401px;
+	left: 22px;
+	width: 196.45877075195px;
+	height: 237.97528076172px;
+	-ms-border-radius: 27px;
+	-o-border-radius: 27px;
+	-moz-border-radius: 27px;
+	-webkit-border-radius: 27px;
+	border-radius: 27px;
+	
+	-ms-transform:rotate(-27deg);
+	-o-transform:rotate(-27deg);
+	-webkit-transform:rotate(-27deg);
+	-moz-transform:rotate(-27deg);
+	transform:rotate(-27deg);
+	background:rgba(8,8,8,255);
+}
+
+
+#back_for_web {
+	top: 397px !important;
+	position: absolute !important;
+	left: 13px;
+	width: 196.45877075195px;
+	height: 237.97528076172px;
+	background:url(skins/back_for_web.png);
+	background-size:cover;
+}
+
+
+#design_front {
+	top: 321px !important;
+	position: absolute !important;
+	left: 185px;
+	width: 135.63465881348px;
+	height: 212.23318481445px;
+	background:url(skins/design_front.png);
+	background-size:cover;
+}
+
+
+#desktop_view {
+	top: 182px !important;
+	position: absolute !important;
+	left: 329px;
+	width: 427px;
+	height: 365px;
+	background:url(skins/desktop_view.png);
+	background-size:cover;
+}
+
+
+#tag {
+	top: 19px !important;
+	position: absolute !important;
+	left: 596px;
+	width: 143.30187988281px;
+	height: 135.60418701172px;
+	background:url(skins/tag.png);
+	background-size:cover;
+}
+
+
+#guid_0cc8afd8_55c7_4a04_9071_60a3d6d186ea {
+	top: 209px !important;
+	position: absolute !important;
+	left: 668px;
+	width: 38px;
+	height: 47px;
+	background:url(skins/guid_0cc8afd8_55c7_4a04_9071_60a3d6d186ea.png);
+	background-size:cover;
+}
+
+
+#button {
+	top: 662px;
+	left: 342px;
+	width: 256px;
+	height: 58px;
+	-ms-border-radius: 28px;
+	-o-border-radius: 28px;
+	-moz-border-radius: 28px;
+	-webkit-border-radius: 28px;
+	border-radius: 28px;
+	border: 1px solid #707070;
+	background:rgba(255,255,255,255);
+}
+
+
+#call_image {
+	top: 663px !important;
+	position: absolute !important;
+	left: 545px;
+	width: 50px;
+	height: 54px;
+	background:url(skins/call_image.png);
+	background-size:cover;
+}
+
+
+#click_here {
+	top: 678px;
+	left: 406px;
+	width: 228px;
+	height: 38px;
+	overflow: hidden;
+	font-family: SF Pro Display;
+	font-size: 20px;
+	font-style: italic;
+	text-align: left;
+	color:#707070;
+}
+
+
+#w {
+	top: 20px;
+	left: 35px;
+	width: 586px;
+	height: 189px;
+	overflow: hidden;
+	font-family: SF Pro Display;
+	font-size: 100px;
+	font-weight: bold;
+	text-align: left;
+	color:#d22727;
+}
+
+
+#elcome {
+	top: 62px;
+	left: 111px;
+	width: 475px;
+	height: 95px;
+	overflow: hidden;
+	font-family: SF Pro Display;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: left;
+	color:#030303;
+}
+
+
+#to_the_telephone_directory {
+	top: 135px;
+	left: 64px;
+	width: 621px;
+	height: 57px;
+	overflow: hidden;
+	font-family: SF Pro Display;
+	font-size: 30px;
+	font-style: italic;
+	text-align: left;
+	color:#000000;
+}
+
+
+#by {
+	top: 184px;
+	left: 202px;
+	width: 217px;
+	height: 57px;
+	overflow: hidden;
+	font-family: SF Pro Display;
+	font-size: 30px;
+	font-style: italic;
+	text-align: left;
+	color:#131111;
+}
+
+
+#radiology_team {
+	opacity:0.41;
+	top: 242px;
+	left: 102px;
+	width: 417px;
+	height: 57px;
+	overflow: hidden;
+	font-family: SF Pro Display;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: left;
+	color:#e91717;
+}
+
+
+#radiology_team_ek1 {
+	top: 238px;
+	left: 102px;
+	width: 417px;
+	height: 57px;
+	overflow: hidden;
+	font-family: SF Pro Display;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: left;
+	color:#e91717;
+}
+
+
+#prepared_by_radiology_information_management__rim__team_ {
+	opacity:0.66;
+	top: 763px;
+	left: 138px;
+	width: 654px;
+	height: 38px;
+	overflow: hidden;
+	font-family: SF Pro Display;
+	font-size: 20px;
+	text-align: left;
+	color:#f7f1f1;
+}
+
+@media only screen and (min-width : 320px){
+ 
+#content-container * { display:inherit; opacity:1; }
+#content-container style, #content-container script { display:none; }
+#content-container a, #content-container span, #content-container br { display:inline; }
+
+#content-container { width:320px; }
+
+#website {
+	top: 0px;
+	left: 0px;
+	width: 645px;
+	height: 1076px;
+}
+#item {
+	top: 0px;
+	left: 0px;
+	width: 645px;
+	height: 1076px;
+}
+
+#bg {
+	top: 0px !important;
+	position: absolute !important;
+	left: 0px;
+	width: 320px;
+	height: 1076px;
+	background:url(skins/screen320/bg.png);
+	background-size:cover;
+}
+
+
+#shadow {
+	opacity:0.39;
+	top: 682px;
+	left: 154px;
+	width: 90.919479370117px;
+	height: 143.82348632812px;
+	-ms-border-radius: 22px;
+	-o-border-radius: 22px;
+	-moz-border-radius: 22px;
+	-webkit-border-radius: 22px;
+	border-radius: 22px;
+	
+	-ms-transform:rotate(8deg);
+	-o-transform:rotate(8deg);
+	-webkit-transform:rotate(8deg);
+	-moz-transform:rotate(8deg);
+	transform:rotate(8deg);
+	background:rgba(0,0,0,255);
+}
+
+
+#shadow_2 {
+	opacity:0.34;
+	top: 746px;
+	left: 59px;
+	width: 126.18962097168px;
+	height: 153.3544921875px;
+	-ms-border-radius: 27px;
+	-o-border-radius: 27px;
+	-moz-border-radius: 27px;
+	-webkit-border-radius: 27px;
+	border-radius: 27px;
+	
+	-ms-transform:rotate(-27deg);
+	-o-transform:rotate(-27deg);
+	-webkit-transform:rotate(-27deg);
+	-moz-transform:rotate(-27deg);
+	transform:rotate(-27deg);
+	background:rgba(8,8,8,255);
+}
+
+
+#back_for_web {
+	top: 739px !important;
+	position: absolute !important;
+	left: 50px;
+	width: 127.07888031006px;
+	height: 153.8076171875px;
+	background:url(skins/screen320/back_for_web.png);
+	background-size:cover;
+}
+
+
+#design_front {
+	top: 672px !important;
+	position: absolute !important;
+	left: 158px;
+	width: 90.92219543457px;
+	height: 143.82397460938px;
+	background:url(skins/screen320/design_front.png);
+	background-size:cover;
+}
+
+
+#desktop_view {
+	top: 309px !important;
+	position: absolute !important;
+	left: 11px;
+	width: 309px;
+	height: 342px;
+	background:url(skins/screen320/desktop_view.png);
+	background-size:cover;
+}
+
+
+#tag {
+	top: 10px !important;
+	position: absolute !important;
+	left: 210px;
+	width: 109.82011413574px;
+	height: 103.35766601562px;
+	background:url(skins/screen320/tag.png);
+	background-size:cover;
+}
+
+
+#guid_0cc8afd8_55c7_4a04_9071_60a3d6d186ea {
+	top: 335px !important;
+	position: absolute !important;
+	left: 253px;
+	width: 30px;
+	height: 37px;
+	background:url(skins/screen320/guid_0cc8afd8_55c7_4a04_9071_60a3d6d186ea.png);
+	background-size:cover;
+}
+
+
+#button {
+	top: 972px;
+	left: 70px;
+	width: 181px;
+	height: 42px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	border: 1px solid #707070;
+	background:rgba(255,255,255,255);
+}
+
+
+#call_image {
+	top: 972px !important;
+	position: absolute !important;
+	left: 209px;
+	width: 40.000015258789px;
+	height: 40px;
+	background:url(skins/screen320/call_image.png);
+	background-size:cover;
+}
+
+
+#click_here {
+	top: 979px;
+	left: 102px;
+	width: 228px;
+	height: 38px;
+	overflow: hidden;
+	font-family: SF Pro Display;
+	font-size: 20px;
+	font-style: italic;
+	text-align: left;
+	color:#707070;
+}
+
+
+#w {
+	top: 74px;
+	left: 19px;
+	width: 566px;
+	height: 113px;
+	overflow: hidden;
+	font-family: SF Pro Display;
+	font-size: 60px;
+	font-weight: bold;
+	text-align: left;
+	color:#d22727;
+}
+
+
+#elcome {
+	top: 106px;
+	left: 66px;
+	width: 463px;
+	height: 47.5px;
+	overflow: hidden;
+	font-family: SF Pro Display;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: left;
+	color:#030303;
+}
+
+
+#to_the_telephone_directory {
+	top: 148px;
+	left: 64px;
+	width: 388px;
+	height: 38px;
+	overflow: hidden;
+	font-family: SF Pro Display;
+	font-size: 20px;
+	font-style: italic;
+	text-align: left;
+	color:#000000;
+}
+
+
+#by {
+	top: 184px;
+	left: 167px;
+	width: 212px;
+	height: 38px;
+	overflow: hidden;
+	font-family: SF Pro Display;
+	font-size: 20px;
+	font-style: italic;
+	text-align: left;
+	color:#131111;
+}
+
+
+#radiology_team {
+	opacity:0.41;
+	top: 236px;
+	left: 72px;
+	width: 415px;
+	height: 47.5px;
+	overflow: hidden;
+	font-family: SF Pro Display;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: left;
+	color:#e91717;
+}
+
+
+#radiology_team_ek1 {
+	top: 231px;
+	left: 72px;
+	width: 415px;
+	height: 47.5px;
+	overflow: hidden;
+	font-family: SF Pro Display;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: left;
+	color:#e91717;
+}
+
+
+#prepared_by_radiology_information_management__rim_team_ {
+	opacity:0.66;
+	top: 1055px;
+	left: 6px;
+	width: 651px;
+	height: 24.5px;
+	overflow: hidden;
+	font-family: SF Pro Display;
+	font-size: 13px;
+	text-align: left;
+	color:#f7f1f1;
+}
+
+}
+ 
+@media only screen and (min-width : 700px){
+ 
+#content-container * { display:inherit; opacity:1; }
+#content-container style, #content-container script { display:none; }
+#content-container a, #content-container span, #content-container br { display:inline; }
+
+#content-container { width:700px; }
+
+#website {
+	top: 0px;
+	left: 0px;
+	width: 837px;
+	height: 793px;
+}
+#item {
+	top: 0px;
+	left: 0px;
+	width: 837px;
+	height: 793px;
+}
+
+#bg {
+	top: 0px !important;
+	position: absolute !important;
+	left: 0px;
+	width: 768px;
+	height: 793px;
+	background:url(skins/screen700/bg.png);
+	background-size:cover;
+}
+
+
+#shadow {
+	opacity:0.39;
+	top: 318px;
+	left: 190px;
+	width: 135.63465881348px;
+	height: 212.23315429688px;
+	-ms-border-radius: 22px;
+	-o-border-radius: 22px;
+	-moz-border-radius: 22px;
+	-webkit-border-radius: 22px;
+	border-radius: 22px;
+	
+	-ms-transform:rotate(8deg);
+	-o-transform:rotate(8deg);
+	-webkit-transform:rotate(8deg);
+	-moz-transform:rotate(8deg);
+	transform:rotate(8deg);
+	background:rgba(0,0,0,255);
+}
+
+
+#shadow_2 {
+	opacity:0.34;
+	top: 382px;
+	left: 22px;
+	width: 196.45877075195px;
+	height: 237.97534179688px;
+	-ms-border-radius: 27px;
+	-o-border-radius: 27px;
+	-moz-border-radius: 27px;
+	-webkit-border-radius: 27px;
+	border-radius: 27px;
+	
+	-ms-transform:rotate(-27deg);
+	-o-transform:rotate(-27deg);
+	-webkit-transform:rotate(-27deg);
+	-moz-transform:rotate(-27deg);
+	transform:rotate(-27deg);
+	background:rgba(8,8,8,255);
+}
+
+
+#back_for_web {
+	top: 378px !important;
+	position: absolute !important;
+	left: 13px;
+	width: 196.45877075195px;
+	height: 237.97534179688px;
+	background:url(skins/screen700/back_for_web.png);
+	background-size:cover;
+}
+
+
+#design_front {
+	top: 305px !important;
+	position: absolute !important;
+	left: 194px;
+	width: 135.63465881348px;
+	height: 212.23315429688px;
+	background:url(skins/screen700/design_front.png);
+	background-size:cover;
+}
+
+
+#desktop_view {
+	top: 209px !important;
+	position: absolute !important;
+	left: 342px;
+	width: 427px;
+	height: 365px;
+	background:url(skins/screen700/desktop_view.png);
+	background-size:cover;
+}
+
+
+#tag {
+	top: 19px !important;
+	position: absolute !important;
+	left: 596px;
+	width: 143.30187988281px;
+	height: 135.60424804688px;
+	background:url(skins/screen700/tag.png);
+	background-size:cover;
+}
+
+
+#guid_0cc8afd8_55c7_4a04_9071_60a3d6d186ea {
+	top: 235px !important;
+	position: absolute !important;
+	left: 685px;
+	width: 38px;
+	height: 47px;
+	background:url(skins/screen700/guid_0cc8afd8_55c7_4a04_9071_60a3d6d186ea.png);
+	background-size:cover;
+}
+
+
+#button {
+	top: 651px;
+	left: 261px;
+	width: 256px;
+	height: 58px;
+	-ms-border-radius: 28px;
+	-o-border-radius: 28px;
+	-moz-border-radius: 28px;
+	-webkit-border-radius: 28px;
+	border-radius: 28px;
+	border: 1px solid #707070;
+	background:rgba(255,255,255,255);
+}
+
+
+#call_image {
+	top: 652px !important;
+	position: absolute !important;
+	left: 464px;
+	width: 50px;
+	height: 54px;
+	background:url(skins/screen700/call_image.png);
+	background-size:cover;
+}
+
+
+#click_here {
+	top: 667px;
+	left: 325px;
+	width: 228px;
+	height: 38px;
+	overflow: hidden;
+	font-family: SF Pro Display;
+	font-size: 20px;
+	font-style: italic;
+	text-align: left;
+	color:#707070;
+}
+
+
+#w {
+	top: 20px;
+	left: 35px;
+	width: 586px;
+	height: 189px;
+	overflow: hidden;
+	font-family: SF Pro Display;
+	font-size: 100px;
+	font-weight: bold;
+	text-align: left;
+	color:#d22727;
+}
+
+
+#elcome {
+	top: 62px;
+	left: 111px;
+	width: 475px;
+	height: 95px;
+	overflow: hidden;
+	font-family: SF Pro Display;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: left;
+	color:#030303;
+}
+
+
+#to_the_telephone_directory {
+	top: 135px;
+	left: 64px;
+	width: 621px;
+	height: 57px;
+	overflow: hidden;
+	font-family: SF Pro Display;
+	font-size: 30px;
+	font-style: italic;
+	text-align: left;
+	color:#000000;
+}
+
+
+#by {
+	top: 184px;
+	left: 202px;
+	width: 217px;
+	height: 57px;
+	overflow: hidden;
+	font-family: SF Pro Display;
+	font-size: 30px;
+	font-style: italic;
+	text-align: left;
+	color:#131111;
+}
+
+
+#radiology_team {
+	opacity:0.41;
+	top: 242px;
+	left: 102px;
+	width: 417px;
+	height: 57px;
+	overflow: hidden;
+	font-family: SF Pro Display;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: left;
+	color:#e91717;
+}
+
+
+#radiology_team_ek1 {
+	top: 238px;
+	left: 102px;
+	width: 417px;
+	height: 57px;
+	overflow: hidden;
+	font-family: SF Pro Display;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: left;
+	color:#e91717;
+}
+
+
+#prepared_by_radiology_information_management__rim_team_ {
+	opacity:0.66;
+	top: 763px;
+	left: 198px;
+	width: 654px;
+	height: 38px;
+	overflow: hidden;
+	font-family: SF Pro Display;
+	font-size: 20px;
+	text-align: left;
+	color:#f7f1f1;
+}
+
+}
+ 
+@media only screen and (min-width : 1100px){
+ 
+#content-container * { display:inherit; opacity:1; }
+#content-container style, #content-container script { display:none; }
+#content-container a, #content-container span, #content-container br { display:inline; }
+
+#content-container { width:1100px; }
+
+#website {
+	top: 0px;
+	left: 0px;
+	width: 1100px;
+	height: 646px;
+}
+#item {
+	top: 0px;
+	left: 0px;
+	width: 1100px;
+	height: 646px;
+}
+
+#bg {
+	top: 0px !important;
+	position: absolute !important;
+	left: 0px;
+	width: 1100px;
+	height: 646px;
+	background:url(skins/screen1100/bg.png);
+	background-size:cover;
+}
+
+
+#shadow {
+	opacity:0.39;
+	top: 289px;
+	left: 325px;
+	width: 135.63464355469px;
+	height: 212.23315429688px;
+	-ms-border-radius: 22px;
+	-o-border-radius: 22px;
+	-moz-border-radius: 22px;
+	-webkit-border-radius: 22px;
+	border-radius: 22px;
+	
+	-ms-transform:rotate(8deg);
+	-o-transform:rotate(8deg);
+	-webkit-transform:rotate(8deg);
+	-moz-transform:rotate(8deg);
+	transform:rotate(8deg);
+	background:rgba(0,0,0,255);
+}
+
+
+#shadow_2 {
+	opacity:0.34;
+	top: 354px;
+	left: 150px;
+	width: 196.45877075195px;
+	height: 237.97521972656px;
+	-ms-border-radius: 27px;
+	-o-border-radius: 27px;
+	-moz-border-radius: 27px;
+	-webkit-border-radius: 27px;
+	border-radius: 27px;
+	
+	-ms-transform:rotate(-27deg);
+	-o-transform:rotate(-27deg);
+	-webkit-transform:rotate(-27deg);
+	-moz-transform:rotate(-27deg);
+	transform:rotate(-27deg);
+	background:rgba(8,8,8,255);
+}
+
+
+#back_for_web {
+	top: 350px !important;
+	position: absolute !important;
+	left: 141px;
+	width: 196.45877075195px;
+	height: 237.97521972656px;
+	background:url(skins/screen1100/back_for_web.png);
+	background-size:cover;
+}
+
+
+#design_front {
+	top: 276px !important;
+	position: absolute !important;
+	left: 329px;
+	width: 135.63464355469px;
+	height: 212.23315429688px;
+	background:url(skins/screen1100/design_front.png);
+	background-size:cover;
+}
+
+
+#desktop_view {
+	top: 141px !important;
+	position: absolute !important;
+	left: 493px;
+	width: 498px;
+	height: 393px;
+	background:url(skins/screen1100/desktop_view.png);
+	background-size:cover;
+}
+
+
+#tag {
+	top: 12px !important;
+	position: absolute !important;
+	left: 942px;
+	width: 143.30187988281px;
+	height: 135.60424804688px;
+	background:url(skins/screen1100/tag.png);
+	background-size:cover;
+}
+
+
+#guid_0cc8afd8_55c7_4a04_9071_60a3d6d186ea {
+	top: 171px !important;
+	position: absolute !important;
+	left: 899px;
+	width: 43px;
+	height: 53px;
+	background:url(skins/screen1100/guid_0cc8afd8_55c7_4a04_9071_60a3d6d186ea.png);
+	background-size:cover;
+}
+
+
+#button {
+	top: 529px;
+	left: 424px;
+	width: 256px;
+	height: 58px;
+	-ms-border-radius: 28px;
+	-o-border-radius: 28px;
+	-moz-border-radius: 28px;
+	-webkit-border-radius: 28px;
+	border-radius: 28px;
+	border: 1px solid #707070;
+	background:rgba(255,255,255,255);
+}
+
+
+#call_image {
+	top: 530px !important;
+	position: absolute !important;
+	left: 627px;
+	width: 50px;
+	height: 54px;
+	background:url(skins/screen1100/call_image.png);
+	background-size:cover;
+}
+
+
+#click_here {
+	top: 547px;
+	left: 488px;
+	width: 228px;
+	height: 38px;
+	overflow: hidden;
+	font-family: SF Pro Display;
+	font-size: 20px;
+	font-style: italic;
+	text-align: left;
+	color:#707070;
+}
+
+
+#w {
+	top: 2px;
+	left: 35px;
+	width: 586px;
+	height: 189px;
+	overflow: hidden;
+	font-family: SF Pro Display;
+	font-size: 100px;
+	font-weight: bold;
+	text-align: left;
+	color:#d22727;
+}
+
+
+#elcome {
+	top: 44px;
+	left: 111px;
+	width: 475px;
+	height: 95px;
+	overflow: hidden;
+	font-family: SF Pro Display;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: left;
+	color:#030303;
+}
+
+
+#to_the_telephone_directory {
+	top: 121px;
+	left: 142px;
+	width: 621px;
+	height: 57px;
+	overflow: hidden;
+	font-family: SF Pro Display;
+	font-size: 30px;
+	font-style: italic;
+	text-align: left;
+	color:#000000;
+}
+
+
+#by {
+	top: 177px;
+	left: 268px;
+	width: 217px;
+	height: 57px;
+	overflow: hidden;
+	font-family: SF Pro Display;
+	font-size: 30px;
+	font-style: italic;
+	text-align: left;
+	color:#131111;
+}
+
+
+#radiology_team {
+	opacity:0.41;
+	top: 231px;
+	left: 173px;
+	width: 417px;
+	height: 57px;
+	overflow: hidden;
+	font-family: SF Pro Display;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: left;
+	color:#e91717;
+}
+
+
+#radiology_team_ek1 {
+	top: 227px;
+	left: 173px;
+	width: 417px;
+	height: 57px;
+	overflow: hidden;
+	font-family: SF Pro Display;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: left;
+	color:#e91717;
+}
+
+
+#prepared_by_radiology_information_management__rim__team_ {
+	opacity:0.66;
+	top: 618px;
+	left: 334px;
+	width: 654px;
+	height: 38px;
+	overflow: hidden;
+	font-family: SF Pro Display;
+	font-size: 20px;
+	text-align: left;
+	color:#f7f1f1;
+}
+
+}
+ 
+
+
+/* Add your custom CSS here */
